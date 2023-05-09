@@ -3,7 +3,7 @@
 ======================================*/
 
 body {
-  // background: url(../images/bg.png) top center no-repeat;
+  background: url(../images/bg.png) top center no-repeat;
 }
 
 // header
@@ -447,6 +447,8 @@ footer {
             a {
               display: block;
               width: 40px;
+              border-radius: 4px;
+              background-color: $color-white;
             }
           }
         }
@@ -526,6 +528,47 @@ footer {
       color: #2D2D2D;
       &:hover {
         color: $color-orange;
+      }
+    }
+  }
+  &.black {
+    background-color: $color-black;
+    .grid {
+      padding: 104px 0 65px 32px;
+      @include columns( $quant: 41.8% 15% 15% 18.8% 9.4%, $gutter: 0, $align: start, $template: '');
+      .item {
+        h5 {
+          color: $color-white;
+        }
+        .logo {}
+        nav {
+          ul {
+            li {
+              a {
+                color: #E0E0E0;
+                &:hover {
+                  color: $color-orange;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .hr {
+      .icons {
+        border: 10px solid $color-black;
+      }
+    }
+    .flex {
+      p {
+        color: $color-white;
+      }
+      a {
+        color: $color-white;
+        &:hover {
+          color: $color-orange;
+        }
       }
     }
   }

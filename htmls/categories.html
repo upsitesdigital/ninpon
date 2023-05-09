@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if IE]><![endif]-->
+  <title>Template</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- link rel="stylesheet" href="assets/css/main.min.css" -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <meta name="description" content="">
+  <meta name="robots" content="all">
+  <meta property="og:title" content="Template">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="Template">
+  <meta property="og:image" content="assets/img/share.jpg">
+  <!--[if lt IE 9]><script src="assets/js/vendor/html5shiv.min.js"></script><![endif]-->
+
+</head>
+
+<body class="">
+
+  <!-- header -->
+  <header id="top">
+    <div class="container">
+      <!-- bar -->
+      <div class="bar">
+        <p>Free shipping to Portugal and Spain over 60 euros</p>
+      </div>
+      <!-- end:bar -->
+
+      <!-- grid -->
+      <div class="grid">
+        <!-- logo -->
+        <div class="item logo">
+          <img src="assets/img/logo.svg" alt="">
+        </div>
+        <!-- end:logo -->
+
+        <!-- search -->
+        <div class="item search">
+          <div class="search-box">
+            <input type="text" name="" id="" placeholder="Search">
+            <button type="submit">
+              <svg class="icon fill">
+              <use xlink:href="assets/img/icons.svg#search"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- end:search -->
+
+        <!-- icons -->
+        <div class="item icons">
+          <a href="">
+            <svg class="icon user fill">
+            <use xlink:href="assets/img/icons.svg#user"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="icon wishlist">
+            <use xlink:href="assets/img/icons.svg#wishlist"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="icon cart">
+            <use xlink:href="assets/img/icons.svg#cart"></use>
+            </svg>
+            <div class="item-cart">1</div>
+          </a>
+        </div>
+        <!-- end:icons -->
+      </div>
+      <!-- end:grid -->
+
+      <!-- grid-menu -->
+      <div class="grid-menu">
+        <div class="categories">
+          <a href="#" id="open-mega-menu" class="browse-categories">
+            <div class="icon"><span></span></div>
+            <span>BROWSE BY CATEGORIES</span>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">New</a></li>
+            <li><a href="">IN STOCK</a></li>
+            <li><a href="">PRE-ORDER</a></li>
+            <li><a href="">ANIMES</a></li>
+            <li><a href="">GAMES</a></li>
+            <li><a href="">MOVIES & TV</a></li>
+            <li><a href="">SALES</a></li>
+            <li><a href="">BRANDS</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end:grid-menu -->
+
+      <div id="mega-menu" class="mega-menu">
+        <div class="grid-mega-menu">
+          <div class="item border">
+            <h4>Shop All Figures</h4>
+            <ul>
+              <li><a href="#">Scale Figures</a></li>
+              <li><a href="#">Action Figures</a></li>
+              <li><a href="#">Nendoroids</a></li>
+              <li><a href="#">Statues</a></li>
+              <li><a href="#">Pop Up Parade</a></li>
+              <li><a href="#">Funkos</a></li>
+              <li><a href="#">Prize Figures</a></li>
+              <li><a href="#">Model Kits</a></li>
+            </ul>
+          </div>
+          <div class="item">
+            <div class="grid-item">
+              <div class="item">
+                <div class="image"></div>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <h3>SCALE FIGURES</h3>
+                  <p>Designed to be pieces of art, they capture characters essence in a stunning level of details</p>
+                  <a href="#">SEE ALL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end:header -->
+
+  <!-- main -->
+  <main>
+    <!-- header-products-list -->
+    <section class="header-products-list">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="#">Home</a>
+          <div class="div">
+            <svg class="icon">
+              <use xlink:href="assets/img/icons.svg#angle-right"></use>
+            </svg>
+          </div>
+          <span>All Figures</span>
+        </div>
+        <h1>All Figures</h1>
+      </div>
+    </section>
+    <!-- end:header-products-list -->
+
+    <!-- products-list -->
+    <section class="products-list">
+      <div class="container">
+        <div class="grid">
+          <div class="sidebar">
+            <h2>
+              <svg class="icon">
+                <use xlink:href="assets/img/icons.svg#bars-filters"></use>
+              </svg> FILTER
+            </h2>
+            <div class="filters-lists">
+              <div class="box">
+                <h3>AVAILABILITY</h3>
+                <ul>
+                  <li><input type="checkbox" name="availability[]" id="in-stock"><label for="in-stock">In Stock</label></li>
+                  <li><input type="checkbox" name="availability[]" id="pre-order"><label for="pre-order">Pre-Order</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>CATEGORIES</h3>
+                <ul>
+                  <li><input type="checkbox" name="categories[]" id="animes"><label for="animes">Animes</label></li>
+                  <li><input type="checkbox" name="categories[]" id="games"><label for="games">Games</label></li>
+                  <li><input type="checkbox" name="categories[]" id="movies-tv"><label for="movies-tv">Movies & TV</label></li>
+                  <li><input type="checkbox" name="categories[]" id="original-characters"><label for="original-characters">Original Characters</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>SERIES</h3>
+                <ul class="mb-14">
+                  <li><input type="checkbox" name="series[]" id="arknights"><label for="arknights">Arknights</label></li>
+                  <li><input type="checkbox" name="series[]" id="atelier"><label for="atelier">Atelier</label></li>
+                  <li><input type="checkbox" name="series[]" id="azur-lane"><label for="azur-lane">Azur Lane</label></li>
+                  <li><input type="checkbox" name="series[]" id="classroom-of-the-elite"><label for="classroom-of-the-elite">Classroom of the Elite</label></li>
+                  <li><input type="checkbox" name="series[]" id="danganronpa"><label for="danganronpa">Danganronpa</label></li>
+                  <li><input type="checkbox" name="series[]" id="kill-la-kill"><label for="kill-la-kill">Kill la Kill</label></li>
+                  <li><input type="checkbox" name="series[]" id="my-teen-romantic-comedy"><label for="my-teen-romantic-comedy">My Teen Romantic Comedy</label></li>
+                  <li><input type="checkbox" name="series[]" id="re-zero"><label for="re-zero">Re:Zero</label></li>
+                  <li><input type="checkbox" name="series[]" id="spy-x-family"><label for="spy-x-family">Spy x Family</label></li>
+                  <li><input type="checkbox" name="series[]" id="the-quintessential-quintuplets"><label for="the-quintessential-quintuplets">The Quintessential Quintuplets</label></li>
+                  <li><input type="checkbox" name="series[]" id="arknights"><label for="arknights">Arknights</label></li>
+                  <li><input type="checkbox" name="series[]" id="atelier"><label for="atelier">Atelier</label></li>
+                  <li><input type="checkbox" name="series[]" id="azur-lane"><label for="azur-lane">Azur Lane</label></li>
+                  <li><input type="checkbox" name="series[]" id="classroom-of-the-elite"><label for="classroom-of-the-elite">Classroom of the Elite</label></li>
+                  <li><input type="checkbox" name="series[]" id="danganronpa"><label for="danganronpa">Danganronpa</label></li>
+                  <li><input type="checkbox" name="series[]" id="kill-la-kill"><label for="kill-la-kill">Kill la Kill</label></li>
+                  <li><input type="checkbox" name="series[]" id="my-teen-romantic-comedy"><label for="my-teen-romantic-comedy">My Teen Romantic Comedy</label></li>
+                  <li><input type="checkbox" name="series[]" id="re-zero"><label for="re-zero">Re:Zero</label></li>
+                  <li><input type="checkbox" name="series[]" id="spy-x-family"><label for="spy-x-family">Spy x Family</label></li>
+                  <li><input type="checkbox" name="series[]" id="the-quintessential-quintuplets"><label for="the-quintessential-quintuplets">The Quintessential Quintuplets</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>FIGURE TYPE</h3>
+                <ul>
+                  <li><input type="checkbox" name="figure-type[]" id="Action Figures"><label for="Action Figures">Action Figures</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Funkos"><label for="Funkos">Funkos</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Model Kits"><label for="Model Kits">Model Kits</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Nendoroids"><label for="Nendoroids">Nendoroids</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Pop Up Parade"><label for="Pop Up Parade">Pop Up Parade</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Prize Figures"><label for="Prize Figures">Prize Figures</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Non-Scale Figures"><label for="Non-Scale Figures">Non-Scale Figures</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Scale Figures"><label for="Scale Figures">Scale Figures</label></li>
+                  <li><input type="checkbox" name="figure-type[]" id="Statues"><label for="Statues">Statues</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>CHARACTER</h3>
+                <ul class="mb-14">
+                  <li><input type="checkbox" name="charater[]" id="Amiya"><label for="Amiya">Amiya</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Anya Forger"><label for="Anya Forger">Anya Forger</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Emilia"><label for="Emilia">Emilia</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Junko Enoshima"><label for="Junko Enoshima">Junko Enoshima</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Nino Nakano"><label for="Nino Nakano">Nino Nakano</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Prinz Eugen"><label for="Prinz Eugen">Prinz Eugen</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Ryuko Matoi"><label for="Ryuko Matoi">Ryuko Matoi</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Ryza"><label for="Ryza">Ryza</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Yor Forger"><label for="Yor Forger">Yor Forger</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Yotsuba Nakano"><label for="Yotsuba Nakano">Yotsuba Nakano</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Amiya"><label for="Amiya">Amiya</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Anya Forger"><label for="Anya Forger">Anya Forger</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Emilia"><label for="Emilia">Emilia</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Junko Enoshima"><label for="Junko Enoshima">Junko Enoshima</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Nino Nakano"><label for="Nino Nakano">Nino Nakano</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Prinz Eugen"><label for="Prinz Eugen">Prinz Eugen</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Ryuko Matoi"><label for="Ryuko Matoi">Ryuko Matoi</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Ryza"><label for="Ryza">Ryza</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Yor Forger"><label for="Yor Forger">Yor Forger</label></li>
+                  <li><input type="checkbox" name="charater[]" id="Yotsuba Nakano"><label for="Yotsuba Nakano">Yotsuba Nakano</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>BRANDS</h3>
+                <ul class="mb-14">
+                  <li><input type="checkbox" name="brands[]" id="Kadokawa"><label for="Kadokawa">Kadokawa</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Kotobukiya"><label for="Kotobukiya">Kotobukiya</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Max Factory"><label for="Max Factory">Max Factory</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Mega House"><label for="Mega House">Mega House</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Myethos"><label for="Myethos">Myethos</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Phat!"><label for="Phat!">Phat!</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Ques Q"><label for="Ques Q">Ques Q</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Square Enix"><label for="Square Enix">Square Enix</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Union Creative"><label for="Union Creative">Union Creative</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Kadokawa"><label for="Kadokawa">Kadokawa</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Kotobukiya"><label for="Kotobukiya">Kotobukiya</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Max Factory"><label for="Max Factory">Max Factory</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Mega House"><label for="Mega House">Mega House</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Myethos"><label for="Myethos">Myethos</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Phat!"><label for="Phat!">Phat!</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Ques Q"><label for="Ques Q">Ques Q</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Square Enix"><label for="Square Enix">Square Enix</label></li>
+                  <li><input type="checkbox" name="brands[]" id="Union Creative"><label for="Union Creative">Union Creative</label></li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <h3>Price</h3>
+                <div class="range-val">
+                  <span class="int-val"></span>
+                  <span class="end-val"></span>
+                </div>
+
+                <div id="price-range"></div>
+              </div>
+
+            </div>
+          </div>
+          <div class="list">
+            <div class="type-view">
+              <p>1-24 of 128 products</p>
+
+              <div class="view">
+                <span>View</span>
+                <a href="#" class="icon-3x3 grid-select act">
+                  <svg class="icon fill">
+                  <use xlink:href="assets/img/icons.svg#icon-3x3"></use>
+                  </svg>
+                </a>
+                <a href="#" class="icon-4x4 grid-select">
+                  <svg class="icon fill">
+                  <use xlink:href="assets/img/icons.svg#icon-4x4"></use>
+                  </svg>
+                </a>
+              </div>
+
+              <select name="" id="">
+                <option value="">Featured</option>
+                <option value="">Relevance</option>
+                <option value="">Most Recent</option>
+                <option value="">Lowest Price</option>
+                <option value="">Highest Price</option>
+                <option value="">Name, A to Z</option>
+                <option value="">Name, Z to A</option>
+              </select>
+            </div>
+            <div class="filter-itens">
+              <a href="#">Animes<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Games<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Dangandonpa<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Re:Zero<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Spy x Family<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">The Quintessential Quintuplets<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Nendoroids<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Pop Up Parade<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Scale Figures<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Nino Nakano<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Yor Forger<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#">Yotsuba Nakano<svg class="icon fill"><use xlink:href="assets/img/icons.svg#close"></use></svg></a>
+              <a href="#" class="clear"><svg class="icon fill"><use xlink:href="assets/img/icons.svg#clear"></use></svg>Clear all filters</a>
+            </div>
+            <div class="grid-prod">
+              <div class="item-prod">
+                <div class="image">
+                  <img src="assets/images/eximg-01.jpg" alt="The Quintessential Quintuplets">
+                  <div class="tags">
+                    <a href="#" class="tag pre-order">Pre-Order</a>
+                    <a href="#" class="tag in-stock">In Stock</a>
+                    <a href="#" class="tag sale">SALE</a>
+                    <a href="#" class="tag sold-out">Sold Out</a>
+                  </div>
+                  <a href="" data-prod-id="001" data-prod-img="assets/images/eximg-01.jpg" data-prod-title="The Quintessential Quintuplets1" class="wishlist act">
+                    <svg class="icon ">
+                    <use xlink:href="assets/img/icons.svg#wishlist"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <img src="assets/images/eximg-02.jpg" alt="The Quintessential Quintuplets">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                  <a href="" data-prod-id="002" data-prod-img="assets/images/eximg-02.jpg" data-prod-title="The Quintessential Quintuplets2" class="wishlist">
+                    <svg class="icon ">
+                    <use xlink:href="assets/img/icons.svg#wishlist"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item-prod">
+                <div class="image">
+                  <div class="tags">
+                    <span class="tag pre-order">Pre-Order</span>
+                    <span class="tag in-stock">In Stock</span>
+                    <span class="tag sale">SALE</span>
+                    <span class="tag sold-out">Sold Out</span>
+                  </div>
+                </div>
+                <div class="content">
+                  <div>
+                    <h3>The Quintessential Quintuplets</h3>
+                    <span class="tag">Amakuni</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="price">
+                      <del aria-hidden="true">
+                        <span class="woocommerce-Price-amount amount">
+                          <bdi><span class="woocommerce-Price-currencySymbol">€</span>235.48</bdi>
+                    </span>
+                    </del>
+                    <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">€</span>180.51</bdi></span></ins>
+                    </span>
+                    <span class="discont">-12%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pag">
+              <a href="" class="prev"><svg class="icon fill"><use xlink:href="assets/img/icons.svg#angle-left"></use></svg></a>
+              <div class="items">
+                <a href="#" class="act">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <span>...</span>
+                <a href="#">128</a>
+              </div>
+              <a href="" class="next"><svg class="icon fill"><use xlink:href="assets/img/icons.svg#angle-right"></use></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end:products-list -->
+
+    <!-- section-pag -->
+    <section class="section-pag">
+      <div class="container">
+      </div>
+    </section>
+    <!-- end:section-pag -->
+  </main>
+  <!-- end:main -->
+
+  <!-- footer -->
+  <footer id="footer" class="black">
+    <div class="container">
+      <div class="grid">
+        <div class="item">
+          <div class="logo"><img src="assets/img/logo-footer-pb.svg" alt=""></div>
+          <ul class="social-media">
+            <li>
+              <a href=""><svg class="icon instagram"><use xlink:href="assets/img/icons.svg#instagram"></use></svg></a>
+            </li>
+            <li>
+              <a href=""><svg class="icon fill pinterest"><use xlink:href="assets/img/icons.svg#pinterest"></use></svg></a>
+            </li>
+            <li>
+              <a href=""><svg class="icon fill twitter"><use xlink:href="assets/img/icons.svg#twitter"></use></svg></a>
+            </li>
+          </ul>
+          <div class="payment-methods">
+            <h5>Payment methods</h5>
+            <ul class="">
+              <li>
+                <a href=""><img src="assets/img/master.svg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/img/visa.svg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/img/mbway.svg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/img/mb.svg" alt=""></a>
+              </li>
+              <li>
+                <a href=""><img src="assets/img/paypal.svg" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <li><a href="#">Figures</a></li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">In Stock</a></li>
+              <li><a href="#">Pre-Order</a></li>
+              <li><a href="#">Animes</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Movies & TV</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Brands</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <h5>Help</h5>
+          <nav>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Track orders</a></li>
+              <li><a href="#">Returns</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <h5>Information</h5>
+          <nav>
+            <ul>
+              <li><a href="#">Payment methods</a></li>
+              <li><a href="#">What’s a pre-order?</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <h5>Helpful links</h5>
+          <nav>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Sing in</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="hr">
+        <div class="icons">
+          <svg class="icon fill"><use xlink:href="assets/img/icons.svg#angle-right"></use></svg>
+        </div>
+      </div>
+      <div class="flex">
+        <p>© <b>2023</b> All rights reserved</p>
+        <a href="">Back to top</a>
+      </div>
+    </div>
+  </footer>
+  <!-- end:footer -->
+
+  <div id="item-wishlist"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="assets/js/bundle.js"></script>
+  <!-- script src="assets/js/bundle.min.js"></script -->
+  <script>
+    $(function() {
+      $("#price-range").slider({
+        range: true,
+        step: 0.01,
+        min: 0,
+        max: 250,
+        values: [33.70, 196.73],
+        slide: function(event, ui) {
+          $(".int-val").html("€" + ui.values[0]);
+          $(".end-val").html("€" + ui.values[1]);
+        }
+      });
+      $(".int-val").html("€" + $("#price-range").slider("values", 0));
+      $(".end-val").html("€" + $("#price-range").slider("values", 1));
+    });
+  </script>
+
+</body>
+
+</html>
