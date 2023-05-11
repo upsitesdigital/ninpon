@@ -2,47 +2,6 @@
   Product
 ======================================*/
 
-.header-products-list {
-  padding: 30px 0;
-  background-color: $color-black;
-  .breadcrumb {
-    display: flex;
-    padding: 0 0 8px 0px;
-    a {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 17px;
-      color: #9E9E9E;
-    }
-    .div {
-      padding: 0 10px 0 11px;
-      .icon {
-        width: 4px;
-        height: 7px;
-        fill: $color-white;
-      }
-    }
-    span {
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 17px;
-      display: flex;
-      align-items: center;
-      color: #FFFFFF;
-    }
-  }
-  h1 {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 36px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-  }
-}
-
 .products-list {
   position: relative;
   &::before {
@@ -358,6 +317,7 @@
               object-fit: cover;
               width: 100%;
               height: 100%;
+              cursor: zoom-in;
             }
           }
         }
@@ -522,6 +482,9 @@
             justify-content: center;
             color: #FFFFFF;
             border: none;
+            &.black {
+              background: #151515;
+            }
           }
           .last {
             font-style: normal;
