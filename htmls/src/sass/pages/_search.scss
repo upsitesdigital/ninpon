@@ -1,0 +1,96 @@
+/*======================================
+  Search
+======================================*/
+
+section.search {
+  background: #F5F5F5;
+  padding: 40px 0 262px 0;
+  .return-search {
+    margin: 0 0 30px 0;
+    padding: 24px 38px;
+    background: #000000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      b {
+        color: #FE6F00;
+      }
+    }
+    .grid {
+      padding: 16px 0 0 0;
+      @include columns( $quant: 1fr 159px, $gutter: 12px, $align: center, $template: '');
+      .item {
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          li {
+            &:first-child {
+              a {
+                width: 76px;
+              }
+            }
+            a {
+              text-align: center;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 14px;
+              display: block;
+              color: #FFFFFF;
+              padding: 7px 10px;
+              border-radius: 4px;
+              background-color: #2D2D2D;
+              letter-spacing: 0.045px;
+            }
+            &:hover,
+            &.act {
+              a {
+                background: #FFFFFF;
+                color: #000000;
+              }
+            }
+          }
+        }
+        select {
+          width: 159px;
+          height: 33px;
+          background: #000000;
+          border: 1px solid #FFFFFF;
+          border-radius: 4px;
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  .list-search {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 37px;
+    @include columns( $quant: 1fr 1fr 1fr 1fr, $gutter: 16px, $align: stretch, $template: '');
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}

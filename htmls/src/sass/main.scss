@@ -21,9 +21,13 @@
 @import "modules/forms";
 @import "modules/lists";
 @import "modules/pagination";
+@import "modules/header-page";
 // Pages
 @import "pages/home";
 @import "pages/product";
 @import "pages/about";
 @import "pages/blog";
 @import "pages/contact";
+@import "pages/search";
+@import "pages/wishlist";
+@import "pages/client";

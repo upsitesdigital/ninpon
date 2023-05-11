@@ -1,0 +1,24 @@
+/*======================================
+  Wishlist
+======================================*/
+
+.wishlist-page {
+  background: #F5F5F5;
+  .list-wishlist {
+    padding: 40px 0 120px 0;
+    width: 100%;
+    @include columns( $quant: 1fr 1fr 1fr 1fr, $gutter: 16px, $align: stretch, $template: '');
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}
