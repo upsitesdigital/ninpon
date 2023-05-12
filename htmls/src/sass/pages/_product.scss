@@ -558,12 +558,12 @@
               @include animate($time: 0.3s);
               width: 23px;
               height: 20px;
-              stroke: $color-orange;
+              stroke: $color-dark-orange;
               fill: transparent;
             }
             &:hover {
               .icon {
-                fill: $color-orange;
+                fill: $color-dark-orange;
               }
             }
           }
