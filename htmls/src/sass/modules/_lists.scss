@@ -276,6 +276,204 @@
   }
 }
 
+.item-wishlist {
+  width: 100%;
+  height: 393px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+  @include animate($time: 0.3s);
+  position: relative;
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: auto;
+    }
+    .tags {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: inline-flex;
+      flex-direction: column;
+      padding: 16px;
+      .tag {
+        min-width: 56px;
+        height: 20px;
+        border-radius: 4px;
+        padding: 3px 6px;
+        margin-bottom: 8px;
+        color: $color-white;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        &.pre-order {
+          background: #F45008;
+        }
+        &.in-stock {
+          background: $color-dark-orange;
+        }
+        &.sale {
+          background: $color-black;
+          color: $color-dark-orange;
+        }
+        &.sold-out {
+          background: #151515;
+        }
+      }
+    }
+    .wishlist {
+      display: block;
+      width: 23px;
+      height: 20px;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      &:after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border-top: 1px solid red;
+        border-left: 1px solid red;
+        animation: spin 2s linear infinite;
+        position: absolute;
+        top: 0;
+        right: 1px;
+        opacity: 0;
+      }
+      .icon {
+        width: 23px;
+        height: 20px;
+        fill: transparent;
+        stroke: #656565;
+        @include animate($time: 0.3s);
+        &.trash {
+          display: none;
+        }
+      }
+      &.in-progress {
+        &:after {
+          opacity: 1;
+        }
+        .icon {
+          opacity: 0;
+        }
+      }
+      &.act {
+        .icon {
+          fill: #E6383C;
+          stroke: #E6383C;
+        }
+      }
+      &:hover {
+        .icon {
+          display: none;
+          &.trash {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    @include animate($time: 0.3s);
+    background: $color-white;
+    mix-blend-mode: normal;
+    border-radius: 0px 0px 12px 12px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 16px 16px 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    .d-flex {
+      display: flex;
+      align-items: end;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 125%;
+      color: #2D2D2D;
+      padding: 0 0 4px 0;
+    }
+    .tag {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #656565;
+    }
+    .price {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #656565;
+      display: inline;
+      ins {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26.4px;
+        color: #2D2D2D;
+        text-decoration: none;
+        display: block;
+        padding: 4px 0 0 0;
+      }
+    }
+    .discont {
+      min-width: 41.23px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 18px;
+      color: $color-white;
+      background: $color-dark-orange;
+      border-radius: 2px;
+      margin: 0 0 3px 11px;
+      padding: 1px 3px;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.35);
+    .content {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.item-client {
+  height: 295px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 12px;
+  display: block;
+  background-color: $color-white;
+  padding: 16px;
+  display: flex;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
 @include breakpoint2($min:xl, $max:'') {}
 
 @include breakpoint2($min:lg, $max:xl) {}

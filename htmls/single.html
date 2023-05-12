@@ -468,23 +468,6 @@
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
   <script src="assets/js/bundle.js"></script>
   <!-- script src="assets/js/bundle.min.js"></script -->
-  <script>
-    $(function() {
-      $("#price-range").slider({
-        range: true,
-        step: 0.01,
-        min: 0,
-        max: 250,
-        values: [33.70, 196.73],
-        slide: function(event, ui) {
-          $(".int-val").html("€" + ui.values[0]);
-          $(".end-val").html("€" + ui.values[1]);
-        }
-      });
-      $(".int-val").html("€" + $("#price-range").slider("values", 0));
-      $(".end-val").html("€" + $("#price-range").slider("values", 1));
-    });
-  </script>
 
 </body>
 
