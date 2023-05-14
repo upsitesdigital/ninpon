@@ -352,6 +352,13 @@ header {
       }
     }
   }
+  &.simple-header {
+    padding: 35px 0 35px 0;
+    text-align: center;
+    .logo {
+      margin: 0 auto;
+    }
+  }
 }
 
 @include breakpoint2($min:xl, $max:'') {}
@@ -570,6 +577,32 @@ footer {
           color: $color-orange;
         }
       }
+    }
+  }
+  &.simple-footer {
+    padding: 39px 0 11px 0;
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 0 0 39px 0;
+      li {
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #FFFFFF;
+        }
+      }
+    }
+    p {
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+      text-align: center;
     }
   }
 }

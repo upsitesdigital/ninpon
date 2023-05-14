@@ -68,7 +68,7 @@
             <use xlink:href="assets/img/icons.svg#wishlist"></use>
             </svg>
           </a>
-          <a href="">
+          <a href="#" id="open-mini-cart">
             <svg class="icon cart">
             <use xlink:href="assets/img/icons.svg#cart"></use>
             </svg>
@@ -1117,6 +1117,29 @@
     </div>
   </footer>
   <!-- end:footer -->
+
+  <!-- mini-cart -->
+  <div class="modal">
+    <div class="overlay"></div>
+    <div class="mini-cart">
+      <div class="box-title">
+        <h3>Your Cart</h3>
+        <a href="#" class="close-mini-cart">
+          <svg class="icon fill">
+          <use xlink:href="assets/img/icons.svg#close"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="mini-clear">
+        <svg class="icon cart">
+        <use xlink:href="assets/img/icons.svg#clear-cart"></use>
+        </svg>
+        <p>Your cart is still empty</p>
+        <a href="#" class="back-shop">Back to shop</a>
+      </div>
+    </div>
+  </div>
+  <!-- end:mini-cart -->
 
   <div id="item-wishlist"></div>
 
