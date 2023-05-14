@@ -16,6 +16,12 @@ export default function() {
     return false;
   });
 
+  $(document).on('click', '#open-mini-cart, .mini-cart-open .modal .overlay, .mini-cart .box-title .close-mini-cart', function() {
+    const $this = $('body');
+    $this.toggleClass('mini-cart-open');
+    return false;
+  });
+
 
 
   $(document).on('click', '.grid-select', function() {
