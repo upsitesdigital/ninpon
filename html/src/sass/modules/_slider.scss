@@ -1,0 +1,61 @@
+/*======================================
+  Sliders
+======================================*/
+
+.slide-home {
+  background-color: $color-black;
+  overflow: hidden;
+  .container {
+    padding: 0 56px;
+    .slide-full {
+      .slick-list {
+        overflow: inherit !important;
+      }
+      .slick-slide {
+        padding: 0 8px;
+      }
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding-top: 14px;
+        li {
+          font-size: 0;
+          button {
+            @include animate($time: 0.3s);
+            border: none;
+            border-radius: 5px;
+            font-size: 0;
+            width: 16px;
+            height: 3px;
+            background-color: #E0E0E0;
+          }
+          &.slick-active {
+            button {
+              background-color: $color-orange;
+            }
+          }
+        }
+      }
+    }
+  }
+  .item {
+    width: 100%;
+    height: 380px;
+    background-color: red;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}
