@@ -1,0 +1,30 @@
+/*======================================
+  Breadcrumbs
+======================================*/
+
+.breadcrumbs {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #2D2D2D;
+  .icon {
+    width: 4px;
+    height: 7px;
+    margin: 3px 11px 0 10px;
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}

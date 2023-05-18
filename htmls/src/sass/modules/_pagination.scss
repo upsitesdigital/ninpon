@@ -1,0 +1,42 @@
+/*======================================
+  Paginations
+======================================*/
+
+.pag {
+  padding: 40px 0 40px 145px;
+  display: flex;
+  align-items: center;
+  .prev,
+  .next {
+    .icon {
+      width: 6px;
+      height: 11px;
+    }
+  }
+  .items {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D2D2D;
+    display: flex;
+    padding: 0 21px;
+    align-items: center;
+    gap: 21px;
+    .act {
+      color: #FE6F00;
+    }
+  }
+}
+
+@include breakpoint2($min:xl, $max:'') {}
+
+@include breakpoint2($min:lg, $max:xl) {}
+
+@include breakpoint2($min:md, $max:lg) {}
+
+@include breakpoint2($min:sm, $max:md) {}
+
+@include breakpoint2($min:xs, $max:sm) {}
+
+@include breakpoint2($min:'', $max:xs) {}
