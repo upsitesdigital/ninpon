@@ -58,5 +58,17 @@ export default function() {
     return false;
   });
 
+  $(document).on('focus', '.form-information input, .form-payment input', function() {
+    if ($(this).val() == '') {
+      $(this).closest('label').addClass('act');
+    }
+    return false;
+  });
+  $(document).on('blur', '.form-information input, .form-payment input', function() {
+    if ($(this).val() == '') {
+      $(this).closest('label').removeClass('act');
+    }
+    return false;
+  });
 
 }
