@@ -3,7 +3,20 @@
 ======================================*/
 
 body {
-  background: url(../images/bg.png) top center no-repeat;
+  // background: url(../images/bg.png) top center no-repeat;
+}
+
+.selectric-selectric {
+  width: 160px;
+  .selectric {
+    border-radius: 4px;
+    .label {
+      padding: 8px 10px;
+    }
+    .button {
+      height: 35px;
+    }
+  }
 }
 
 // header
@@ -32,6 +45,7 @@ header {
         stroke: none;
         &:hover {
           fill: $color-orange;
+          stroke: transparent;
         }
       }
       &:hover {
