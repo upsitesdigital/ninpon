@@ -36,6 +36,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "graceful-fs": "4.2.3",
+    "selectric": "^1.13.0",
     "slick-carousel": "^1.6.0",
     "svg4everybody": "^2.1.4"
   },

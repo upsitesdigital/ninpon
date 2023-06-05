@@ -57,6 +57,10 @@ export default function() {
 
     return false;
   });
+  $(document).on('click', '.list-faq .item-faq .title', function() {
+    const box = $(this).closest('.item-faq');
+    box.toggleClass('act').find('.content').slideToggle();
+  });
 
   $(document).on('focus', '.form-information input, .form-payment input', function() {
     if ($(this).val() == '') {
@@ -70,5 +74,18 @@ export default function() {
     }
     return false;
   });
+
+  $(document).on('change', '.inputfile > input', function() {
+    var name = $(this).prop('files');
+    console.log(name);
+    if (name.length >= 2) {
+      $(this).closest('.inputfile').find('.file').html(name.length + ' arquivos');
+    } else {
+      $(this).closest('.inputfile').find('.file').html(name[0].name);
+    }
+    return false;
+  });
+
+  $('.selectric').selectric();
 
 }
