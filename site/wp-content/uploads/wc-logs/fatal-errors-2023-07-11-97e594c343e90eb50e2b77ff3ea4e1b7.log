@@ -1,0 +1,20 @@
+2023-07-11T21:49:11+00:00 CRITICAL Uncaught Error: Call to undefined function wp_pagenavi() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\archive-product.php:455
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projetos\ninpon\site\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\archive-product.php na linha 455
+
+2023-07-11T21:49:40+00:00 CRITICAL Uncaught Error: Call to undefined function wp_pagenavi() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\archive-product.php:455
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projetos\ninpon\site\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\archive-product.php na linha 455
+

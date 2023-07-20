@@ -1,0 +1,14 @@
+2023-07-04T22:36:53+00:00 CRITICAL Uncaught Error: Call to undefined function US_paging_nav() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\template-parts\search.php:67
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\index.php(16): get_template_part('template-parts/...')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\projetos\ninpon\site\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\template-parts\search.php na linha 67
+
+2023-07-04T22:55:02+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\template-parts\posts\content-product-slide.php na linha 32
+

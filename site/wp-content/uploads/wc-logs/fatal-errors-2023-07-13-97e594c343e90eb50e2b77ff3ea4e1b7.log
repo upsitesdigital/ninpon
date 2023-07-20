@@ -1,0 +1,72 @@
+2023-07-13T22:14:17+00:00 CRITICAL Uncaught Error: Call to undefined function flatten_array() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 269
+
+2023-07-13T22:14:25+00:00 CRITICAL Uncaught Error: Call to undefined function flatten_array() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 269
+
+2023-07-13T22:18:58+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 269
+
+2023-07-13T22:19:05+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 269
+
+2023-07-13T22:19:39+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:269
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 269
+
+2023-07-13T22:20:38+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:267
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 267
+
+2023-07-13T22:21:34+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:275
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 275
+
+2023-07-13T22:21:38+00:00 CRITICAL Uncaught Error: Call to undefined function array_flatten() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:275
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): add_wishlist('')
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-admin\admin-ajax.php(188): do_action('wp_ajax_add_wis...')
+#4 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 275
+
