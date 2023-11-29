@@ -1,0 +1,2 @@
+2023-11-28T21:24:04+00:00 CRITICAL Cannot redeclare nif_field() (previously declared in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:710) em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 726
+

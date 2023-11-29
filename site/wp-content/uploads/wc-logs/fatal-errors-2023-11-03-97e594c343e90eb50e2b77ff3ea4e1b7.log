@@ -1,0 +1,18 @@
+2023-11-03T16:28:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Abstract_Order::get_item(), 0 passed in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php on line 22 and at least 1 expected in C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php:1001
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php(22): WC_Abstract_Order->get_item()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(203)
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes em C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php na linha 1001
+
+2023-11-03T17:27:10+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_items() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php:57
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(204)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_view_order('204')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\wooc em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php na linha 57
+

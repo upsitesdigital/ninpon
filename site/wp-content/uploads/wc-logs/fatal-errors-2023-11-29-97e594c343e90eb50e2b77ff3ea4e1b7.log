@@ -1,0 +1,40 @@
+2023-11-29T14:08:33+00:00 CRITICAL Uncaught Error: Class 'NumberFormatter' not found in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php:61
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(204)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_view_order('204')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-templa em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php na linha 61
+
+2023-11-29T14:09:53+00:00 CRITICAL Uncaught Error: Call to undefined function ID() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php:38
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(204)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_view_order('204')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php na linha 38
+
+2023-11-29T14:10:17+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::ID() in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php:38
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(204)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_view_order('204')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-cont em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php na linha 38
+
+2023-11-29T14:10:45+00:00 CRITICAL Uncaught Error: Class 'NumberFormatter' not found in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php:62
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(153): wc_get_template('myaccount/view-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3267): WC_Shortcode_My_Account::view_order(204)
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_view_order('204')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-templa em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\view-order.php na linha 62
+

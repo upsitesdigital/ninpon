@@ -1,0 +1,21 @@
+2023-11-01T20:06:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php:1259
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\functions.php(3): require()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\projetos\ninpon\site\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\upsites\functions.php na linha 1259
+
+2023-11-01T22:10:08+00:00 CRITICAL Uncaught Error: Call to a member function get_value() on null in C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\form-edit-address.php:40
+Stack trace:
+#0 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(222): wc_get_template('myaccount/form-...', Array)
+#2 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3291): WC_Shortcode_My_Account::edit_address('billing')
+#3 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(308): woocommerce_account_edit_address('billing')
+#4 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\projetos\ninpon\site\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\projetos\ninpon\site\wp-content\plugi em C:\xampp\htdocs\projetos\ninpon\site\wp-content\themes\ninpon\woocommerce\myaccount\form-edit-address.php na linha 40
+
